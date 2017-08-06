@@ -15,13 +15,13 @@ if (mergedArrays.indexOf(newPerson) === -1) {
 var female = ['Ana', 'Isabel', 'Caroline', 'Kate'];
 var male = ['Jacob', 'Peter', 'Mathew', 'Ben'];
 var mergedArrays = female.concat(male);
-console.log(mergedArrays);
 var newPerson = 'Ingrid';
 for (i = 0; i < mergedArrays.length; i++) {
 	if (i == newPerson) {
 		break;
 	} else {
 		mergedArrays.push(newPerson);
+		break;
 	};
 };		
 console.log(mergedArrays);
